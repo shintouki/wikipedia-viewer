@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: #33FFFF;
+}
+
+#random_article {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#search_box {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#search_button {
+  font-family: 'Cinzel', serif;
+}
+
+.box {
+  width: 800px;
+  /*   min-height: 100px; */
+  overflow: hidden;
+  background-color: lavender;
+  border: solid 1px silver;
+  box-shadow: 0px 3px 5px 1px silver;
+  margin: 20px auto 20px auto;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  color: black;
+  font-size: 25px;
+}
+
+.snippet {
+  color: black;
+}
+
+.links {
+  text-decoration: none;
+  width: 800px;
+  /*   this makes it so that only the box is clickable, the area to the left and right are not clickable*/
+  display: block;
+  /*   center the block */
+  margin: auto;
+}
